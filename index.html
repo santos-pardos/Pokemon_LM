@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="container">
+    <h1>Pokédex JS</h1>
+    <p>Haz clic en un Pokémon para ver su detalle.</p>
+  </header>
+
+  <main class="container">
+    <section class="toolbar">
+      <input type="text" id="buscador" placeholder="Buscar Pokémon por nombre">
+      <button id="btn-recargar">Recargar</button>
+    </section>
+
+    <section id="estado" class="estado">Cargando Pokémon...</section>
+
+    <ul id="lista-pokemon" class="grid-pokemon"></ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #222;
+}
+
+.container {
+  width: min(1000px, 92%);
+  margin: 0 auto;
+}
+
+header {
+  padding: 24px 0 10px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+input,
+button {
+  padding: 10px 12px;
+  font-size: 16px;
+}
+
+input {
+  flex: 1;
+  min-width: 240px;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+.estado {
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.grid-pokemon {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.card a {
+  text-decoration: none;
+  color: #0d47a1;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.card a:hover,
+.volver:hover {
+  text-decoration: underline;
+}
+
+.card small {
+  display: block;
+  margin-top: 8px;
+  color: #666;
+}
+
+.card-detalle {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  max-width: 500px;
+}
+
+.card-detalle h2 {
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+.card-detalle img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.tag {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #eef3ff;
+  font-size: 14px;
+}
+
+.error {
+  color: #b00020;
+}
