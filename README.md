@@ -1,7 +1,6 @@
 # Links
 
 ## FreecamCode
-```
 HTML - CSS
 ```
 https://www.freecodecamp.org/espanol/news/aprende-html-y-css-curso-desde-cero/
@@ -21,6 +20,6 @@ https://www.freecodecamp.org/espanol/news/consumiendo-servicios-api-desde-javasc
 ```
 https://www.youtube.com/playlist?list=PL8VCLfCNXjSboktEnd6CHCtxZHTwiQZQH
 ```
-```
+
 (video 15 es precisamente la API Pokemon explicada enteremante)
-```
+
