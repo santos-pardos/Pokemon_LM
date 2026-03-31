@@ -5,7 +5,7 @@
 https://pokeapi.co/docs/v2
 ```
 
-## FreecamCode
+## Freecodecamp
 HTML - CSS
 ```
 https://www.freecodecamp.org/espanol/news/aprende-html-y-css-curso-desde-cero/
