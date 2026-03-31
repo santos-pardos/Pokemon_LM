@@ -1,4 +1,4 @@
-# Links
+# Links Ayuda
 
 ## FreecamCode
 HTML - CSS
@@ -21,5 +21,5 @@ https://www.freecodecamp.org/espanol/news/consumiendo-servicios-api-desde-javasc
 https://www.youtube.com/playlist?list=PL8VCLfCNXjSboktEnd6CHCtxZHTwiQZQH
 ```
 
-(video 15 es precisamente la API Pokemon explicada enteremante)
+(video 15 es precisamente la API Pokemon explicada)
 
